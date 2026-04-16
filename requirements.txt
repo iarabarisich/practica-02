@@ -1,0 +1,11 @@
+numpy
+pandas
+pyarrow
+matplotlib
+scipy
+astropy
+astroquery
+scikit-learn
+lightgbm
+jupyter
+ipykernel

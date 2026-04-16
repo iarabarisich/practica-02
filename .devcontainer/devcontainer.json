@@ -1,0 +1,22 @@
+{
+  "name": "Astronomia Estelar - Practica 02",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && python -m ipykernel install --user --name practica-02 --display-name 'Python (Practica 02)'",
+  "postAttachCommand": "echo 'Entorno listo para Practica 02'",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.terminal.activateEnvironment": false,
+        "jupyter.jupyterServerType": "local",
+        "jupyter.notebookFileRoot": "${fileDirname}",
+        "jupyter.askForKernelRestart": false,
+        "jupyter.interactiveWindow.creationMode": "perFile"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
